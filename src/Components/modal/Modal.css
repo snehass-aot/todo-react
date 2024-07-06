@@ -1,0 +1,52 @@
+.edit {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 654px;
+    width: 100%;
+    top: 79px;
+    left: 409px;
+    padding: 40px;
+    gap: 32px;
+    border-radius: 12px;
+    border: 1px solid #CECECE;
+
+
+}
+
+.editHead {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CECECE;
+}
+
+.editHead h2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    color: #09174A;
+
+
+
+}
+
+.editTitle {
+    max-width: 574px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.editTitle h2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #282829;
+}

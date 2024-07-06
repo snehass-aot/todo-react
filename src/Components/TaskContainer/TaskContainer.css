@@ -1,0 +1,17 @@
+.taskContainer {
+    max-width: 1312px;
+    max-height: 544px;
+    gap: 20px;
+
+
+}
+
+.taskContainer p {
+    max-width: 115px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: center;
+    color: #8B8B8B,
+}

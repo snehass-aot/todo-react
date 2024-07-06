@@ -1,0 +1,136 @@
+.taskcontainer p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    /* text-align: center; */
+    color: #8B8B8B;
+    margin-top: 10px;
+
+}
+
+.cardContainer {
+    max-width: 1312px;
+    max-height: 544px;
+    gap: 20px;
+
+
+}
+
+.card-sub-container {
+    max-width: 1312px;
+    max-height: 164px;
+    padding: 24px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px solid #CECECE;
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+
+
+}
+
+.card-contents {
+    justify-content: space-between;
+    display: flex;
+    max-width: 1136px;
+    width: 100%;
+}
+
+.card-contents-top p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    color: #282829;
+}
+
+.card-contents-bottom p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #475467;
+
+}
+
+.inner-card {
+    max-width: 800px;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    padding-left: 10px;
+}
+
+.inner-card p {
+    font-family: Montserrat;
+    font-size: 14px;
+    /* font-weight: 600; */
+    line-height: 17.07px;
+    text-align: justified;
+    columns: #667085;
+
+}
+
+#checkbox {
+    /* background-color: red; */
+    appearance: none;
+    padding-top: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: #475467 1px solid;
+    margin-left: 10px;
+}
+#checkbox:checked {
+    background-image: url("../assets/cheked.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: none;
+
+}
+.boxchecked {
+    appearance: none;
+    padding-top: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: #475467 1px solid;
+    margin-left: 10px;
+    background-image: url("../assets/cheked.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: none;
+}
+
+
+.card-icons {
+    display: flex;
+    max-width: 28px;
+    max-height: 28px;
+    gap: 24px;
+}
+
+.completeTask {
+    display: flex;
+    justify-content: space-between;
+}
+
+.completeTask button {
+    max-width: 205px;
+    max-height: 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+    text-align:center;
+    border-radius: 5px;
+    border: 1px solid #0C39C7;
+    color: #0C39C7;
+    margin: 8px;
+
+
+}
